@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main{
+	margin: 90px auto;
+	width: 80%;
+	height: 1000px;
+	background-color: #767676;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	align-items: center;
+		
+	
+}
+main > div{
+	flex-basis: 40%;
+	height: 300px;
+}
+main div figure{
+	width: 100%;
+	height: 300px;
+}
+main div figure >img{
+	width: 100%;
+	height: 300px;
+}
+video{
+	width: 100%;
+	height: 300px;
+}
+.titre {
+	text-align: center;
+	margin-top: 30px
+}
